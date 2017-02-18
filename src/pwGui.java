@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.event.ComponentAdapter;
 
 public class pwGui {
 
