@@ -1,26 +1,18 @@
 public class logic {
     private String password = "";
-    private String specialCharacters[] = {"@", "~", "\\", "/", "+", "-", "*", "(", "=", ")", "{", "}"};
+    private static final String specialCharacters[] = {
+            "@", "~", "\\", "/", "+", "-", "*", "(", "=",
+            "%", "&", "$", "£", ")", "{", "}", "!", ".", ",", "?"};
+    private static final int specialCharactersCount = 20;
 
     public void pwGenerator(int length, boolean numbers, boolean sChars) {
 
-        for (int i = 0; i < 10 ; i++) {
-            System.out.print(specialCharacters[i]);
-        }
+        while () {
+            if (password.length() <)
+            while () {
 
-        if (numbers) {
-            password = password+Integer.toString((int)(Math.random()*9));
+            }
         }
-
-        if (sChars) {
-            password = password+Integer.toString((int)(Math.random()*9));
-        }
-
-        for (int i = 0; i < length ; i++) {
-            //password = password+Integer.toString((int)(Math.random()*9));
-        }
-
-        System.out.print(password);
 
     }
 }
