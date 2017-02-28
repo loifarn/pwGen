@@ -46,7 +46,7 @@ public class pwGui {
     }
 
     private void genPassword(String length, boolean numbers, boolean sChars) {
-        password = "0";
+        password = "";
         pwDisplay.setText(null);
 
         while (password.length() < Integer.parseInt(length)) {
